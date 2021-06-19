@@ -16,8 +16,8 @@ pip install setuptools==33.1.1
 cd /root
 yum -y install python-setuptools
 easy_install pip
-git clone  https://github.com/siemenstutorials/shadowsocksr.git
-cd shadowsocks
+git clone https://github.com/siemenstutorials/shadowsocksr.git
+cd shadowsocksr
 pip install -r requirements.txt
 cp apiconfig.py userapiconfig.py
 cp config.json user-config.json
